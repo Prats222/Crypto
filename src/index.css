@@ -1,17 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Outfit", sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
-.app{
+
+.app {
     min-height: 100vh;
     color: white;
-    background: linear-gradient(#0b004e,#1d152f,#002834);
+    background: linear-gradient(135deg, #0b004e, #1d152f, #002834, #311b92, #1f3b4d, #1a5276, #154360, #1c2833);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }

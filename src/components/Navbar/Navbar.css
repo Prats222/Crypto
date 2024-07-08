@@ -6,8 +6,9 @@
     color: #ddd;
     border-bottom: 2px solid #3c3c3c;
 }
-.navbar .logo{
-    width: max(12vw,120px);
+.navbar .logo {
+    width: max(12vw, 130px);
+    
 }
 .navbar ul{
     display: flex;
